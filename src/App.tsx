@@ -21,7 +21,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import Login from './Login';
+import Login from './Login.tsx';
 
 // --- Types ---
 type Status = 'present' | 'late' | 'absent' | 'leave';
